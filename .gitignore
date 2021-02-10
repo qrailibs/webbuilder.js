@@ -1,1 +1,10 @@
+# Dont ignore dist
+!/dist/index.js
+!/dist/index.js.map
+
+# Ignore npm modules, cache
 /node_modules
+/.cache
+
+# Ignore testings
+/dist/*
