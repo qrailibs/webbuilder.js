@@ -7,22 +7,55 @@
   <meta name="description" content="webbuilder.js Testings">
   <meta name="author" content="qrai">
   <style>
+      body,html {
+          margin: 0;
+          padding: 0;
+          display: flex;
+      }
+      
+      #toolbox {
+        width: 30vw;
+        height: 100vh;
+        padding: .6rem .8rem;
+        border-right: 1px solid #e7e8ec;
+
+        display: flex;
+        flex-direction: column;
+      }
+      #toolbox .component-template {
+        border-radius: 10px;
+        border: 1px solid #cdcdcf;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: grab;
+        margin-bottom: .6rem;
+      }
+
+      #container {
+        width: 70vw;
+        height: 100vh;
+      }
+
+      [dropping] {
+        background-color: #cdcdcf;
+      }
+
+      .somecontainer {
+        padding: 2rem;
+      }
   </style>
 </head>
 <body>
     <!-- Sidebar: components will be dragged from here-->
-    <div class="sidebar">
+    <div id="toolbox">
 
     </div>
 
     <!-- Container: components will be dropped here-->
-    <div class="container">
+    <div id="container" root>
 
     </div>
 
-    <script src="./js/index.js"></script>
-    <script>
-        console.log('hello');
-    </script>
+    <script src="./js/test.js"></script>
 </body>
 </html>
