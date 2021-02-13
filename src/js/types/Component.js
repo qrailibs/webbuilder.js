@@ -1,4 +1,4 @@
-import { webbuilder } from "..";
+import { webbuilder } from "../webbuilder";
 
 export class ComponentConfig {
     constructor(canDropOn={}) {

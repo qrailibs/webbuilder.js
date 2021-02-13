@@ -2,14 +2,14 @@
   "name": "webbuilder-js",
   "version": "1.0.0",
   "description": "JavaScript library to create your own website builder/constructor",
-  "main": "src/js/index.js",
+  "main": "src/js/webbuilder.js",
   "dependencies": {},
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
     "serve": "parcel ./src/test.html --open -p 8080",
-    "build": "parcel build ./src/js/index.js"
+    "build": "parcel build ./src/js/webbuilder.js"
   },
   "repository": {
     "type": "git",

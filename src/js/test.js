@@ -1,4 +1,4 @@
-import {webbuilder} from './index';
+import {webbuilder} from './webbuilder';
 import {BuilderToolbox} from './types/BuilderToolbox';
 import {BuilderContainer} from './types/BuilderContainer';
 
