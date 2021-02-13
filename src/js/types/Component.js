@@ -59,7 +59,7 @@ export class Component {
         else if(this.type == 'container') {
             // Return template code, with container attr set to true
             tempEl = tempEl.firstElementChild;
-            tempEl.setAttribute('container', true);
+            tempEl.setAttribute('container', '');
             return tempEl;
         }
         else throw new Error('Unknown component type, unable to produce element');
