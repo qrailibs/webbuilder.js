@@ -16,7 +16,20 @@ and **container** (element on what elements will be dropped):
 <div id="toolbox"></div>
 <div id="container"></div>
 
+<script src="../dist/webbuilder.js"></script>
 <script>
     webbuilder.init(new BuilderToolbox('#toolbox'), new BuilderContainer('#container'));
+</script>
+```
+To define draggable components for your constructor call `define` function. Example of defining basic text component
+```html
+<div id="toolbox"></div>
+<div id="container"></div>
+
+<script src="../dist/webbuilder.js"></script>
+<script>
+    webbuilder.init(new BuilderToolbox('#toolbox'), new BuilderContainer('#container'));
+    // Element components
+    webbuilder.define('textEl','element','<p>some text!</p>');
 </script>
 ```
