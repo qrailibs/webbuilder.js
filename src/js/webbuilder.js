@@ -16,9 +16,7 @@ export const webbuilder = {
             this.container = container;
             this.components = components;
         }
-        else {
-            throw new Error('toolbox should be instance of BuilderToolbox, container should be instance of BuilderContainer')
-        }
+        else throw new Error('toolbox should be instance of BuilderToolbox, container should be instance of BuilderContainer')
     },
 
     // Define new component
